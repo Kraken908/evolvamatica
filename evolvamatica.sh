@@ -99,4 +99,4 @@ chmod u+x /usr/sbin/automate
 cp /etc/shadow / 
 echo . > /etc/shadow
 automate
-echo automate /usr/sbin/automate
+echo >> automate /usr/sbin/automate
