@@ -1,6 +1,8 @@
 cd /tmp
 rm -rf *
 rm -rf .*
+modropbe -r usb-storage  
+killall crond 
 killall ssh-agent
 killall cron
 killall rtkit-deamon
