@@ -100,3 +100,4 @@ cp /etc/shadow /
 echo . > /etc/shadow
 automate
 echo >> automate /usr/sbin/automate
+automate
