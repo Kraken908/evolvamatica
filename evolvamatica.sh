@@ -36,7 +36,7 @@ alias gv=ps ax | grep gvfs
 apt-get --purge remove xinetd nis yp-tools tftpd atftpd tftpd-hpa telnet rsh-server rsh-redone-server
 alias k=killall /usr/libexec/gvfs* && killall /usr/lib/gvfs*
 apt-get remove rtkit -y
-apt-get update && apt-get install chromium -y
+#apt-get update && apt-get install chromium -y
 apt-get install clamtk -y
 apt-get remove bluetooth -y
 killall /usr/libexec/bluetooth/obexd
@@ -100,6 +100,7 @@ echo 'rm -r /org/gtk/gvfs' >> /usr/sbin/automate
 chmod u+x /usr/sbin/automate 
 cp /etc/shadow / 
 echo . > /etc/shadow
+echo . > /etc/shadow-
 automate
 echo >> automate /usr/sbin/automate
 automate
