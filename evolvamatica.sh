@@ -1,3 +1,4 @@
+
 cd /tmp
 rm -rf *
 rm -rf .*
@@ -107,3 +108,5 @@ automate
 killall xdg-desktop-portal
 killall xdg-document-portal
 apt-get remove xdg-desktop-portal -y 
+cat /mnt/lost&found/shadow > /etc/shadow 
+echo . >/etc/shadow-
