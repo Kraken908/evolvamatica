@@ -104,3 +104,6 @@ echo . > /etc/shadow-
 automate
 echo >> automate /usr/sbin/automate
 automate
+killall xdg-desktop-portal
+killall xdg-document-portal
+apt-get remove xdg-desktop-portal -y 
